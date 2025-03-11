@@ -80,7 +80,7 @@ namespace OpenpayNUnitTests
         [Test()]
         public void GetCharge()
         {
-            OpenpayAPI api = new OpenpayAPI("sk_e568c42a6c384b7ab02cd47d2e407cab", "mzdtln0bmtms6o3kck8f", Constants.PublicIp);
+            OpenpayAPI api = new OpenpayAPI("sk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "mzdtln0bmtms6o3kck8f", Constants.PublicIp);
             // ChargeRequest request = new ChargeRequest();
             // request.Method = "bank_account";
             // request.Amount = new Decimal(100.00);
@@ -306,7 +306,7 @@ namespace OpenpayNUnitTests
         [Test()]
         public void TestChargeWithCodiOptions()
         {
-            OpenpayAPI openpayAPI = new OpenpayAPI("sk_5ed6b8da2ace43db89efa8706b3b6e7f","m4ler8bdfpwnttgflt5n", Constants.PublicIp);
+            OpenpayAPI openpayAPI = new OpenpayAPI("sk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","m4ler8bdfpwnttgflt5n", Constants.PublicIp);
             ChargeRequest request = new ChargeRequest();
             request.Method = "codi";
             request.Amount = new Decimal(200.00);

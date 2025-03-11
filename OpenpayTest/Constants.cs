@@ -7,7 +7,7 @@ namespace OpenpayTest
 {
     public static class Constants
     {
-        public static string API_KEY = "sk_d5a90a83ee78483890286e2dfb61dd35";
+        public static string API_KEY = "sk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         public static string MERCHANT_ID = "mwfxtxcoom7dh47pcds1";
     }
 }
